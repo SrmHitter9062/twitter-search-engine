@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link rel='stylesheet' href='/stylesheet/tyle.css'/>
+  </head>
+  <body>
+    <script type="text/javascript" src="/build/bundle.js"></script>    
+  </body>
+</html>
