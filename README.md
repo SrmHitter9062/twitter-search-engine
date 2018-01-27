@@ -1,35 +1,39 @@
 Getting started
 
 requirements for set up:
--node
+- node
 
--express
+- express
 
--mongoDb
+- mongoDb
 
--mongoose
+- mongoose
 
--elastic search
+- elastic search
 
-#to run the project , do below things
-- go to project folder
-1) run the app server
+#Poject Running process
+- In project folder
+1) run the app server - $ nodemon app.js
 
- $ nodemon app.js
-2) run the mongo server
+2) run the mongo server -  $ mongod -dbpath /mydatabase/db
 
- $ mongod -dbpath /mydatabase/db
-3) mongo shell
+3) mongo shell -  $ mongo
 
- $ mongo
-4) run elasticsearch:
-
- $ elasticsearch
+4) run elasticsearch - $ elasticsearch
 
 
- Tweet search API Information:
+#Tweet search API Information:
+   api code - routes/api.js
+   tweet data schema - models/TweetData.js
+   es searvice - services/elasticsearch.js
+   tweet helper - helpers/tweetHelper.js
+   elasticsearch Helper - helpers/elasticSearchHelper.js
+   outcome - outcome/
+   es config - config/config-es
+   db config - config/config-db
+   serve config - config/config-server
 
- 1) Path name - api/tweet/search
+ 1) Path name - api/tweet/search  
 
   query parameters :
     text = trending topic or user name  (i.e. PadmaavatRow ,SaluteToSoldiers,Yukti Varjatia )    
