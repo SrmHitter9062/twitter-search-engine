@@ -24,13 +24,21 @@ requirements for set up:
 
 #Tweet search API Information:
    api code - routes/api.js
+
    tweet data schema - models/TweetData.js
+
    es searvice - services/elasticsearch.js
+
    tweet helper - helpers/tweetHelper.js
+
    elasticsearch Helper - helpers/elasticSearchHelper.js
+
    outcome - outcome/
+
    es config - config/config-es
+
    db config - config/config-db
+
    serve config - config/config-server
 
  1) Path name - api/tweet/search  
