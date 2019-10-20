@@ -11,7 +11,7 @@ requirements for set up:
 
 - elastic search
 
-#Poject Running process
+#Project Running process
 - In project folder
 1) run the app server - $ nodemon app.js
 
